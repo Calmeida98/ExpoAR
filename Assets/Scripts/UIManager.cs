@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening; //Referenciando paquete DoTween
 
-public class UIManager : MonoBehaviour
+public class UIManager : MonoBehaviour 
 {
-    [SerializableField] private GameObject MainMenuCanvas;
-    [SerializableField] private GameObject ItemsMenuCanvas;
-    [SerializableField] private GameObject ARPositionCanvas;
+    SerializableField private GameObject MainMenuCanvas;
+    /*[SerializableField]*/ private GameObject ItemsMenuCanvas;
+    /*[SerializableField]*/ private GameObject ARPositionCanvas;
 
     // Start is called before the first frame update
     void Start()
